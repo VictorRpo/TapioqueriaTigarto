@@ -236,7 +236,7 @@ int main(void)
 	*/
 	if (archivo==NULL)
 	{
-		printf("Error opening the file\n");
+		printf("Error en la apertura del archivo\n");
 		return 1;
 	}
 	
@@ -593,7 +593,7 @@ int main(void)
 	fclose(archive);
 	printf("\n");
 	printf("\n");
-	puts("Contenido escrito correctamente");
+	puts("Contenido escrito correctamente en el archivo output.txts");
 
 	return EXIT_SUCCESS;
 }
